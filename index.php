@@ -4,10 +4,7 @@ ini_set('error_reporting', 0);
 ini_set('display_errors', 0);
 ini_set('display_startup_errors', -1);
 
-echo '<pre>';
-print_r(match(0,5)); // TEST
-echo '</pre>';
-exit;
+
 /*
  * @c1 @c2 => (integer) номер комманды от 0 и выше, обязательно integer, даже '0' - нельзя
  * return array(количество голов которая забила 1ая комманда, количество голов которая забила2ая комманда);
